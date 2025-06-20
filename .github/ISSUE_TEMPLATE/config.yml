@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/IAmRadek/metric/discussions
+    about: Please ask and answer questions here.
+  - name: GitHub Documentation
+    url: https://github.com/IAmRadek/metric/blob/main/README.md
+    about: Check out the documentation before opening an issue.
