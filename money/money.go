@@ -190,3 +190,8 @@ func (m Money) LessThan(m2 Money) (bool, error) {
 
 	return m.amount.Less(m2.amount), nil
 }
+
+// IsZero returns true if the Money amount is zero
+func (m Money) IsZero() bool {
+	return m.amount.IsZero()
+}
